@@ -21,8 +21,8 @@ package main
 
 //Runtime debug flags
 const (
-	_DEBUG_DISPLAY_ON  = true
-	_DEBUG_REST_API_ON = true
+	_DEBUG_DISPLAY_ON  = false
+	_DEBUG_REST_API_ON = false
 	_SEED_FUNCTION_ON  = true
 )
 
@@ -115,6 +115,7 @@ const (
 	_ARTIFACTS_URI_API    = "/ledger/api/v1/artifacts/uri"
 	_ARTIFACT_OF_ENV_API  = "/ledger/api/v1/envelope/artifact"
 	_ARTIFACT_OF_PART_API = "/ledger/api/v1/artifacts/part"
+	_KEY_PAIR_API         = "/ledger/api/v1/keys"
 	_PARTS_API            = "/ledger/api/v1/parts"
 	_LEDGER_PING_API      = "/ledger/api/v1/ping"
 	//_PARTS_TO_SUPPLIER_API = "/ledger/api/v1/parts/supplier"
